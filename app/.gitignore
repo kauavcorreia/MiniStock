@@ -1,1 +1,20 @@
-/build
+# Gradle
+.gradle/
+**/build/
+
+# Configurações locais do Android
+local.properties
+
+# Configurações específicas da IDE
+.vscode/
+.idea/
+*.iml
+
+# Arquivos gerados
+*.apk
+*.aab
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
